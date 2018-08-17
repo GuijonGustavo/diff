@@ -1,0 +1,181 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+svg {
+  font: 14px 'Open Sans';
+}
+
+.bar--positive {
+  fill: steelblue;
+}
+
+.bar--negative {
+  fill: darkorange;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis .tick line {
+  stroke: rgba(0, 0, 0, 0.1);
+}
+
+.area {
+  stroke-width: 0;
+}
+
+.area.outer,
+.legend .outer {
+  fill: rgba(200, 255, 205, 0.5);
+  stroke: rgba(0, 0, 255, 0.9);
+  stroke-width: 3;
+}
+
+.area.inner,
+.legend .inner {
+  stroke: rgba(255, 0, 0, 0.9);
+  stroke-width: 3;
+}
+
+.median-line,
+.legend .median-line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 0;
+}
+
+.legend .legend-bg {
+  fill: rgba(0, 0, 255, 0.3);
+  stroke: rgba(0, 0, 0, 0.5);
+}
+
+.marker .marker-bg,
+.marker path {
+  fill: rgba(255, 127, 0, 0.8);
+  stroke: rgba(255, 127, 0, 0.8);
+  stroke-width: 3;
+}
+
+.marker .marker-bg,
+.marker path {
+  fill: rgba(0, 153, 51, 0.8);
+  stroke: rgba(0, 153, 51, 0.8);
+  stroke-width: 3;
+}
+
+.marker path {
+  fill: none;
+}
+
+.legend text,
+.marker text {
+  fill: #fff;
+  font-weight: bold;
+}
+
+.marker text {
+  text-anchor: middle;
+  font-size:8px;
+}
+
+.titulo{
+	font-size:36px;
+  text-anchor: middle;
+  fill: rgba(0, 53, 251, 0.8);
+
+}
+
+
+.legenda{
+	display:inline-block;
+	margin:10px;
+	margin-top:30px;
+	margin-left:0;
+	max-height:280px;
+	min-width:190px;
+	overflow:auto;
+	float:right;
+}
+.legenda table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.legenda tr, .legend td, .legend div{
+	margin:0;
+	padding:0;
+}
+.legenda div{
+	width:20px;
+	height:20px;
+	float: right;
+}
+.legenda span{
+	padding: 0 5px;
+	margin:0
+}
+.legenda tr:hover{
+	background:silver;
+}
+body{
+	width:1350px;
+	margin:auto;
+}
+svg{
+	display:inline-block;
+	margin-top:50px;
+	float:left;
+}
+.distquantdiv{
+	clear:both;
+	padding:10px;
+	overflow:hidden;
+	margin: 20px;
+}
+.distquantdiv h3{
+	padding-left: 40px;
+	margin-bottom:0;
+}
+
+
+.menu{
+	display:inline-block;
+	margin:10px;
+	margin-top:30px;
+	margin-left:0;
+	max-height:280px;
+	min-width:190px;
+	float:left;
+}
+.menu table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.menu tr, .menu td, .menu div{
+	margin:0;
+	padding:0;
+}
+.menu div{
+	width:20px;
+	height:20px;
+	float: left;
+}
+.menu span{
+	padding: 0 5px;
+	margin:0
+}
+
+.menu tr:hover{
+	background:silver;
+}
+h3 {
+font-size:30px;
+font-weight:bold;
+color: rgba(0, 53, 251, 0.8);
+}
