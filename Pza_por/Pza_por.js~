@@ -189,7 +189,7 @@ function makeChart (data) {
 
 var margin = {top: 20, right: 30, bottom: 40, left: 30},
     width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 1000 - margin.top - margin.bottom; //altura del shart
 
 var x = d3.scale.linear()
     .range([0, width]);
